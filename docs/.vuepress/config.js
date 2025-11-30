@@ -16,11 +16,11 @@ export default defineUserConfig({
     // 导航栏配置
     navbar: [
       {
-        text: '首页',
+        text: '🏠 首页',
         link: '/',
       },
       {
-        text: '文档',
+        text: '📚 技术文档',
         children: [
           {
             text: 'CSS',
@@ -28,15 +28,37 @@ export default defineUserConfig({
           },
         ],
       },
+      {
+        text: '📖 博客文章',
+        link: '/article/',
+      },
     ],
+
     // 页脚
-    footer: 'MIT Licensed | Copyright © 2024 Enterprise Documentation Center',
+    footer: 'MIT Licensed | Copyright © 2024 个人知识笔记',
 
     // 贡献者
     contributors: false,
 
     // 最后更新时间
-    lastUpdated: false,
+    lastUpdated: true,
+    lastUpdatedText: '最后更新于',
+
+    // 编辑链接
+    editLink: false,
+
+    // 多语言支持
+    selectLanguageText: '选择语言',
+    selectLanguageName: '中文',
+
+    // 主题色彩
+    themePlugins: {
+      git: false,
+      nprogress: true,
+      prismjs: true,
+      prismjsWorker: true,
+      externalLinkIcon: true,
+    },
   }),
 
   plugins: [
