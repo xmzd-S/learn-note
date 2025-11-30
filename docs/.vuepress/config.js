@@ -4,33 +4,44 @@ import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
-  lang: 'en-US',
+  lang: 'zh-CN',
 
-  title: 'VuePress',
-  description: 'My first VuePress Site',
+  title: '企业级文档中心',
+  description: '专业的企业级文档解决方案',
+
+  head: [
+    ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
+    ['meta', { name: 'keywords', content: '企业文档,VuePress,文档管理,知识库' }],
+    ['meta', { name: 'author', content: 'Enterprise Documentation Team' }],
+  ],
 
   theme: defaultTheme({
-    logo: 'https://vuejs.press/images/hero.png',
-
+    repo: 'your-repo-link',
+    
+    // 导航栏配置
     navbar: [
-      '/',
       {
-        text: 'Article',
-        link: '/article/',
+        text: '首页',
+        link: '/',
       },
       {
-        text: 'Category',
-        link: '/category/',
-      },
-      {
-        text: 'Tag',
-        link: '/tag/',
-      },
-      {
-        text: 'Timeline',
-        link: '/timeline/',
+        text: '文档',
+        children: [
+          {
+            text: 'CSS',
+            link: '/docs/css.html',
+          },
+        ],
       },
     ],
+    // 页脚
+    footer: 'MIT Licensed | Copyright © 2024 Enterprise Documentation Center',
+
+    // 贡献者
+    contributors: false,
+
+    // 最后更新时间
+    lastUpdated: false,
   }),
 
   plugins: [
