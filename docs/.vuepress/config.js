@@ -6,14 +6,9 @@ import { viteBundler } from '@vuepress/bundler-vite'
 export default defineUserConfig({
   lang: 'zh-CN',
 
-  title: '企业级文档中心',
-  description: '专业的企业级文档解决方案',
+  title: '个人笔记',
+  description: '欢迎来到我的个人笔记',
 
-  head: [
-    ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
-    ['meta', { name: 'keywords', content: '企业文档,VuePress,文档管理,知识库' }],
-    ['meta', { name: 'author', content: 'Enterprise Documentation Team' }],
-  ],
 
   theme: defaultTheme({
     repo: 'your-repo-link',
