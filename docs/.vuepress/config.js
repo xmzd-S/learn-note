@@ -26,6 +26,10 @@ export default defineUserConfig({
             text: 'CSS',
             link: '/docs/css.html',
           },
+          {
+            text: 'freqtrade',
+            link: '/docs/freqtrade/freqtrade.html',
+          },          
         ],
       },
       {
