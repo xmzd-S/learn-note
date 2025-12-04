@@ -23,9 +23,13 @@ export default defineUserConfig({
         text: '📚 技术文档',
         children: [
           {
-            text: 'CSS',
-            link: '/docs/css/css.html',
+            text: '前端',
+            link: '/docs/前端',
           },
+          {
+            text: '后端',
+            link: '/docs/后端',
+          },          
           {
             text: 'freqtrade',
             link: '/docs/freqtrade/freqtrade.html',
