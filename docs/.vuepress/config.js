@@ -24,11 +24,11 @@ export default defineUserConfig({
         children: [
           {
             text: '前端',
-            link: '/docs/前端/README.html',
+            link: '/docs/fronted/README.html',
           },
           {
             text: '后端',
-            link: '/docs/后端/README.html',
+            link: '/docs/backend/README.html',
           },          
           {
             text: 'freqtrade',
