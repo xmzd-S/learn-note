@@ -24,7 +24,7 @@ export default defineUserConfig({
         children: [
           {
             text: 'CSS',
-            link: '/docs/css.html',
+            link: '/docs/css/css.html',
           },
           {
             text: 'freqtrade',
