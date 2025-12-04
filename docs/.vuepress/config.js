@@ -24,21 +24,21 @@ export default defineUserConfig({
         children: [
           {
             text: '前端',
-            link: '/docs/fronted/README.html',
+            link: '/docs/fronted/fronted',
           },
           {
             text: '后端',
-            link: '/docs/backend/README.html',
+            link: '/docs/backend/backend',
           },          
           {
             text: 'freqtrade',
-            link: '/docs/freqtrade/freqtrade.html',
+            link: '/docs/freqtrade/freqtrade',
           },          
         ],
       },
       {
         text: '遇到的问题',
-        link: '/docs/questions/questions.html',
+        link: '/docs/questions/questions',
       },      
       {
         text: '📖 博客文章',
