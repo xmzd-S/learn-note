@@ -33,6 +33,10 @@ export default defineUserConfig({
         ],
       },
       {
+        text: '遇到的问题',
+        link: '/docs/questions/questions.html',
+      },      
+      {
         text: '📖 博客文章',
         link: '/article/',
       },
