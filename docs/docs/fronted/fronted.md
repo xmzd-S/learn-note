@@ -14,7 +14,7 @@ sidebar: auto
 
 ### Vue.js 相关
 - [Vue CLI 安装](./VueCLI安装.md) - Vue CLI 的安装和配置
-- [集成 Ant Design Vue](./集成ant-design-vue%20(Duplicated%202025-11-29%2010_45_15).md) - 在 Vue 项目中集成 Ant Design Vue
+- [集成 Ant Design Vue](./集成ant-design-vue.md) - 在 Vue 项目中集成 Ant Design Vue
 
 ---
 

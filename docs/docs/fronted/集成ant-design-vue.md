@@ -1,4 +1,4 @@
-# 集成ant-design-vue (Duplicated 2025-11-29 10:45:15)
+# 集成ant-design-vue
 
 - 安装
 
