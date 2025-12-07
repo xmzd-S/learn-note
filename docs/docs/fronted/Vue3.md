@@ -1,6 +1,4 @@
-
-
-# 应用、根组件、挂载
+## 应用、根组件、挂载
 
 ```javascript
 function createApp(rootComponent: Component, rootProps?: object): App
@@ -38,9 +36,7 @@ interface App {
 </html>
 ```
 
-
-
-# 单组件实例化
+## 单组件实例化
 
 0. 初始化 props
 1. beforeCreate生命周期函数
@@ -128,13 +124,11 @@ interface App {
 </html>
 ```
 
-
-
-# 生命周期函数
+## 生命周期函数
 
 ![组件生命周期图示](./assets/lifecycle_zh-CN.W0MNXI0C.png)
 
-# 父子组件实例化
+## 父子组件实例化
 
 ```
 父组件 beforeCreate

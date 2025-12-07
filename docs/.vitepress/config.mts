@@ -41,7 +41,8 @@ export default defineConfig({
             { text: '前端概述', link: '/docs/fronted/fronted' },
             { text: 'Vue CLI 安装', link: '/docs/fronted/VueCLI安装' },
             { text: 'CSS', link: '/docs/fronted/css' },
-            { text: '集成 Ant Design Vue', link: '/docs/fronted/集成ant-design-vue' }
+            { text: '集成 Ant Design Vue', link: '/docs/fronted/集成ant-design-vue' },
+            { text: 'Vue3', link: '/docs/fronted/Vue3' }
           ]
         }
       ],
